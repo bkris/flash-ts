@@ -1,0 +1,96 @@
+{
+//  "compilerOptions": {
+//    "out": "build/engine.js",
+//    "outDir": "build",
+//    "target": "es5",
+//    "declaration": true,
+//    "removeComments": true,
+//    "sourceMap": true
+//  },
+//  "exclude": [
+//    "node_modules"
+//  ],
+//  "files": [
+//    "src/engine.ts"
+//  ]
+
+//  // text rendering test
+//  "compilerOptions": {
+//    "out": "tests/demo1/test.js",
+//    "target": "es5",
+//    "sourceMap": true
+//  },
+//  "exclude": [
+//    "node_modules"
+//  ],
+//  "files": [
+//    "tests/demo1/test.ts"
+//  ]
+
+//    // text rendering test
+//    "compilerOptions": {
+//      "out": "tests/demo2/test.js",
+//      "target": "es5",
+//      "sourceMap": true
+//    },
+//    "exclude": [
+//      "node_modules"
+//    ],
+//    "files": [
+//      "tests/demo2/test.ts"
+//    ]
+
+//    // text rendering test
+//    "compilerOptions": {
+//      "out": "tests/demo3/test.js",
+//      "target": "es5",
+//      "sourceMap": true
+//    },
+//    "exclude": [
+//      "node_modules"
+//    ],
+//    "files": [
+//      "tests/demo3/test.ts"
+//    ]
+
+//    // text rendering test
+//    "compilerOptions": {
+//      "out": "tests/demo4/test.js",
+//      "target": "es5",
+//      "sourceMap": true
+//    },
+//    "exclude": [
+//      "node_modules"
+//    ],
+//    "files": [
+//      "tests/demo4/test.ts"
+//    ]
+
+//  // text rendering test
+//  "compilerOptions": {
+//    "out": "tests/text_rendering/test.js",
+//    "target": "es5",
+//    "sourceMap": true
+//  },
+//  "exclude": [
+//    "node_modules"
+//  ],
+//  "files": [
+//    "tests/text_rendering/test.ts"
+//  ]
+
+  // text rendering test
+  "compilerOptions": {
+    "out": "tests/keyboard_events/test.js",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "tests/keyboard_events/test.ts"
+  ]
+
+
+}

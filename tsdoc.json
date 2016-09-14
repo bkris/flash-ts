@@ -1,0 +1,37 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : true
+	},
+	"plugins":[
+		 "plugins/markdown"
+		,"/usr/lib/node_modules/tsdoc/template/plugins/TSDoc.js"
+	],
+	"opts":
+	{
+		"template"	:"/usr/lib/node_modules/tsdoc/template",
+		"recurse"	:"true"
+	},
+	"templates" : {
+		"cleverLinks"     : false,
+		"monospaceLinks"  : false
+	},
+	"source":
+	{
+		"includePattern": "(\\.d)?\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		:"/home/boogey/Dropbox/flash-ts/src/",
+		"destination"	:"/home/boogey/Dropbox/flash-ts/docs",
+		"tutorials"		:"",
+		"systemName"	: "flash-ts",
+		"footer"		: "",
+		"copyright"		: "flash-ts Copyright © 2016 boogey.",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}
